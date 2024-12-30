@@ -13,6 +13,10 @@ flowchart LR
     Chocolate <--> br[Baby Ruth]
     Chocolate <--> ohgb[100 Grand Bar]
     Chocolate <--> fa[Fifth Avenue]
+    Chocolate <--> Butterfinger
+    Chocolate <--> Krackel
+    Chocolate <--> Reese's
+    Chocolate <--> Twix
     Nougat <--> Snickers
     Nougat <--> tm
     Nougat <--> mw
@@ -21,11 +25,16 @@ flowchart LR
     Caramel <--> mw
     Caramel <--> br
     Caramel <--> ohgb
+    Caramel <--> Twix
     Peanut <--> Snickers
     Peanut <--> mg
     Peanut <--> br
     cr[Crisp Rice] <--> Crunch
     cr <--> ohgb
+    cr <--> Krackel
     Wafer <--> KitKat
     pb[Peanut Butter] <--> fa
+    pb <--> Butterfinger
+    pb <--> Reese's
+    Cookie <--> Twix
 ```
